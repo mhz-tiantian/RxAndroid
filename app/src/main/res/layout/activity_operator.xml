@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OperatorActivity">
+
+    <Button
+        android:id="@+id/button_create"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符Create创建被观察者" />
+
+    <Button
+        android:id="@+id/button_just"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符just创建被观察者" />
+
+    <Button
+        android:id="@+id/button_from_array"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符fromArray创建被观察者" />
+
+
+    <Button
+        android:id="@+id/button_from_iterable"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符fromIterable创建被观察者" />
+
+    <Button
+        android:id="@+id/button_defer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符defer 延迟创建被观察者" />
+
+
+    <Button
+        android:id="@+id/button_timer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符timer 延迟创建被观察者" />
+
+    <Button
+        android:id="@+id/button_interval"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符interval 延迟创建被观察者" />
+
+    <Button
+        android:id="@+id/button_interval_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符intervalRange 延迟创建被观察者" />
+
+    <Button
+        android:id="@+id/button_range"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="操作符Range 创建被观察者" />
+</LinearLayout>
