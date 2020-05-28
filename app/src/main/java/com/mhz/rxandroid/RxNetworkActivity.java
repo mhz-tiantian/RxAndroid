@@ -48,7 +48,7 @@ public class RxNetworkActivity extends BaseActivity {
                                 .build();
 
                         // b. 创建 网络请求接口 的实例
-                        GetRequest_Interface request = retrofit.create(GetRequest_Interface.class);
+                        ApiService request = retrofit.create(ApiService.class);
                         // c. 采用Observable<...>形式 对 网络请求 进行封装
                         Observable<Translation> observable = request.getCall();
                         observable.subscribeOn(Schedulers.io())

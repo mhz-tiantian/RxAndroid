@@ -31,4 +31,16 @@
         android:layout_height="50dp"
         android:text="RxJava变换操作符" />
 
+    <Button
+        android:id="@+id/button_network_nest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RxJava网络的嵌套" />
+
+    <Button
+        android:id="@+id/button_merge"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="RxJava组合 / 合并操作符" />
+
 </LinearLayout>

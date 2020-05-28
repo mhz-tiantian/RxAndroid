@@ -11,7 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ChangeOperatorActivity"></activity>
+        <activity android:name=".RxMergeActivity"></activity>
+        <activity android:name=".RxNetworkNestActivity" />
+        <activity android:name=".ChangeOperatorActivity" />
         <activity android:name=".RxNetworkActivity" />
         <activity android:name=".OperatorActivity" />
         <activity android:name=".MainActivity">

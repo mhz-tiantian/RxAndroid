@@ -19,6 +19,12 @@ public class MainActivity extends BaseActivity {
         findViewById(R.id.button_change_operator).setOnClickListener(v -> {
             launchActivity(activity, ChangeOperatorActivity.class);
         });
+        findViewById(R.id.button_network_nest).setOnClickListener(v -> {
+            launchActivity(activity, RxNetworkNestActivity.class);
+        });
+        findViewById(R.id.button_merge).setOnClickListener(v -> {
+            launchActivity(activity, RxMergeActivity.class);
+        });
 
 
     }
